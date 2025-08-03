@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Amit Kumar Biswas - Cybersecurity Analyst Portfolio" />
+    <meta name="keywords" content="cybersecurity, ethical hacker, penetration tester, security researcher" />
+    <meta name="author" content="Amit Kumar Biswas" />
+    
+    <title>Amit Kumar Biswas | Cybersecurity Analyst</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0a192f" />
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Amit Kumar Biswas | Cybersecurity Analyst" />
+    <meta property="og:description" content="Professional Cybersecurity Analyst and Ethical Hacker with experience in Web, API, and Network Pentesting" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourportfolio.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/social-preview.jpg" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Amit Kumar Biswas | Cybersecurity Analyst" />
+    <meta name="twitter:description" content="Professional Cybersecurity Analyst and Ethical Hacker with experience in Web, API, and Network Pentesting" />
+    <meta name="twitter:image" content="%PUBLIC_URL%/social-preview.jpg" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourportfolio.com" />
+    
+    <!-- iOS Safari PWA Config -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Amit Kumar Biswas" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    
+    <!-- Windows PWA Config -->
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/logo192.png" />
+    <meta name="msapplication-TileColor" content="#0a192f" />
+    <meta name="msapplication-config" content="%PUBLIC_URL%/browserconfig.xml" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" as="style" />
+    
+    <!-- No-JS Fallback -->
+    <noscript>
+      <style>
+        body {
+          background-color: #0a192f;
+          color: #ccd6f6;
+          font-family: 'Poppins', sans-serif;
+        }
+        .no-js-message {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          padding: 20px;
+          z-index: 9999;
+          background-color: #0a192f;
+        }
+        .no-js-message h1 {
+          color: #00f0ff;
+          font-family: 'Orbitron', sans-serif;
+          margin-bottom: 20px;
+        }
+        .no-js-message p {
+          max-width: 600px;
+          margin: 0 auto 30px;
+          line-height: 1.6;
+        }
+        .no-js-message a {
+          color: #00f0ff;
+          text-decoration: underline;
+        }
+      </style>
+      <div class="no-js-message">
+        <div>
+          <h1>Amit Kumar Biswas</h1>
+          <h2>Cybersecurity Analyst</h2>
+          <p>It looks like you have JavaScript disabled in your browser. This portfolio requires JavaScript to function properly. Please enable JavaScript or use a modern browser to view this content.</p>
+          <p>You can contact me directly at <a href="mailto:amitlthax0r@gmail.com">amitlthax0r@gmail.com</a> or call me at <a href="tel:+916289612466">+91 6289612466</a></p>
+        </div>
+      </div>
+    </noscript>
+  </head>
+  <body>
+    <!-- Root Element for React -->
+    <div id="root"></div>
+    
+    <!-- Performance Monitoring -->
+    <script>
+      // Service Worker Registration
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js').then(
+            (registration) => {
+              console.log('ServiceWorker registration successful');
+            },
+            (err) => {
+              console.log('ServiceWorker registration failed: ', err);
+            }
+          );
+        });
+      }
+      
+      // Web Vitals Monitoring
+      const reportWebVitals = (onPerfEntry) => {
+        if (onPerfEntry && onPerfEntry instanceof Function) {
+          import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+            getCLS(onPerfEntry);
+            getFID(onPerfEntry);
+            getFCP(onPerfEntry);
+            getLCP(onPerfEntry);
+            getTTFB(onPerfEntry);
+          });
+        }
+      };
+    </script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Amit Kumar Biswas",
+      "jobTitle": "Cybersecurity Analyst",
+      "url": "https://yourportfolio.com",
+      "sameAs": [
+        "https://linkedin.com/in/amit-kumar-3b6820195",
+        "https://github.com/amit-kumar-3b6820195",
+        "https://twitter.com/amitlthax0r"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kolkata",
+        "addressRegion": "West Bengal",
+        "addressCountry": "India"
+      },
+      "email": "mailto:amitlthax0r@gmail.com",
+      "telephone": "+91 6289612466",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Shri Krishna University"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "VIEHGroup Pvt. Ltd."
+      },
+      "description": "Certified Ethical Hacker and Cybersecurity Analyst specializing in Web, API, and Network Pentesting with experience at Microsoft, Bugcrowd, and other top organizations."
+    }
+    </script>
+  </body>
+</html>
